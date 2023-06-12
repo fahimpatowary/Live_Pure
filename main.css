@@ -1,0 +1,359 @@
+body{
+    
+    transition: all .7s;
+}
+
+a{
+    background-image: linear-gradient(0deg,#ffe042,#ffcd00);
+    border-bottom: 1px solid rgb(169, 148, 0);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #006587!important;
+    border-radius: 7px;
+}
+
+a:hover{
+    background-image: linear-gradient(30deg,#ffe042,#ffcd00) !important;
+}
+
+img{
+    max-width: 100%;
+}
+
+.bg-color{
+    background-color: var(--blue);
+}
+
+.bg-color2{
+    background-color: var(--blue2);
+}
+
+.px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.Navber img{
+    max-width: 50%;
+}
+
+.hero-bg{
+    background-image: url(./images/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-body{
+    position: relative;
+}
+
+.controls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.001);
+}
+
+.controls img{ 
+    height: 80px;
+    width: 80px;
+    background-color: rgb(69, 69, 69);
+    border-radius: 60%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.second-video{
+    display: none;
+}
+
+.hero-bg video{
+    border: 4px solid #036587;
+    border-radius: 10px;
+}
+
+.time{
+    color: #ffd900;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.product-card{
+    border: 4px solid #e6e6e6;
+    text-align: center;
+    border-radius: 0.75rem;
+    background-color: white;
+    color: black;
+
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s; 
+    margin-bottom: 20px;
+}
+
+.product-card:hover{
+    scale: 1.05;
+    scale: 1.05;
+    box-shadow: 0 0 #0000;
+}
+
+.product-card h2{
+    font-size: 3.2em;
+    color: #006587;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 0;
+} 
+
+.product-card h3{
+    font-size: 1.8rem;
+    color: #006587;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: sans-serif;
+} 
+
+.product-card img{
+    margin-top: 1.5rem;
+    max-height: 185px;
+    width: auto;
+}
+
+.product-card .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card .price h3{
+    font-size: 7rem;
+    line-height: 1;
+}
+
+.product-card .price h4{
+    color: #00b5d9;
+    text-align: left !important;
+}
+
+.product-card .price2{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.product-card .price2 span{
+    text-decoration-line: line-through;
+}
+
+.product-card .price3{
+    font-size: 20px;
+    margin-top: 0.125rem;
+    line-height: 1.25rem;
+    margin-bottom: 0;
+}
+
+.proudct-special{
+    background-image: linear-gradient(180deg,#cef7ff,#cef8ff 80%);
+    border: 4px solid #006587!important;
+}
+
+.money-back h2{
+    font-size: 2.8rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.money-back p{
+    text-align: justify;
+    font-size: 17.5px;
+    margin-top: 2.5rem;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.money-back{
+    margin-top: 9rem !important;
+}
+
+.money-back .relative {
+    width: 100%;
+    height: 5px;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.money-back img{
+    position: absolute;
+    margin-top: -12rem;
+    margin-bottom: 0;
+    left: 40%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.six-bottle{
+    background-image: linear-gradient(90deg,#c7864c,#e5c57b 33%,#e5c57b 50%,#c7864c);
+}
+
+.six-bottle p{
+    font-size: 2rem;
+    line-height: 1;
+    margin-left: .5rem;
+    color: #006587;
+    text-align: center;
+    font-weight: 700;
+}
+
+.review h2{
+    color: #00b5d9;
+    text-align: left;
+    font-size: 2.8rem;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.review-card{
+    display: flex;
+    align-items: start;
+}
+
+.review-card:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.review-card .img-box{
+    padding: 0.25rem;    
+    border: 4px solid #ebc46d;
+    border-radius: 9999px;
+    overflow: hidden;
+    width: 80px;
+    height: auto;
+    margin-right: .75rem;
+}
+
+.review-card .img-box img{
+    border-radius: 9999px;
+    width: 100%;
+    height: auto;
+}
+
+.review-card ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.review-card ul li{
+    display: inline-block;
+    color: #f5f01e;
+}
+
+.review-card p{
+    margin-bottom: 10px;
+}
+
+.start-box{
+    display: flex;
+}
+
+.bg-color3{
+    background: linear-gradient(180deg,#e5c57b,#c7864c);
+}
+
+.check-card{
+    margin-bottom: 20px;
+}
+
+.check-card p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.FQAs-section{
+    background: url(https://www.liv-pure.com/images/livpure/transparentLogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+    background-attachment: fixed;
+}
+
+.FQAs-section h2{
+    color: #00b5d9;
+    font-weight: 700;
+    font-size: 3rem;    
+    line-height: 1;
+}
+
+.accordion-button,
+.accordion-item:first-of-type .accordion-button {
+    color: #242424;
+    border: none;
+    background: transparent !important;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    border: 1px solid #00b5d9;
+}
+
+.accordion-item {
+    border: none;
+    border-radius: 10px;
+    background: transparent !important;
+}
+
+footer{
+    background-color: var(--blue2);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: .5rem;
+    margin-bottom: 0;
+}
+
+footer ul li a,
+footer ul li a:hover{
+    background: none !important;
+    padding: 0 !important;
+    color: white !important;
+    border: none !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 990px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .money-back img {
+        left: 12%;
+    }
+}
+
+:root{
+    --blue: #00b5d9;
+    --blue2: #036587;
+}
